@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajvardhan Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky header with logo and navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">Rajvardhan</a>
+            <nav class="main-nav">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#booking" class="btn btn-primary">Book Table</a>
+        </div>
+    </header>
+
+    <!-- Hero section with background image -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle">Fine Dining Experience</span>
+            <h1>Welcome to Rajvardhan Restaurant Karad</h1>
+            <p>Discover signature dishes made from fresh ingredients, delicious flavors, and modern restaurant vibes.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">Order Now</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food categories section -->
+    <section class="categories section-gap">
+        <div class="container section-heading">
+            <h2>Food Categories</h2>
+            <p>Choose your favorite cuisine and enjoy the best meals in town.</p>
+        </div>
+        <div class="container categories-grid">
+            <div class="category-card">
+                <h3>Burgers</h3>
+                <p>Juicy patties, toasted buns, and tasty toppings.</p>
+            </div>
+            <div class="category-card">
+                <h3>Pizzas</h3>
+                <p>Crispy crusts loaded with premium cheeses and fresh toppings.</p>
+            </div>
+            <div class="category-card">
+                <h3>Pasta</h3>
+                <p>Rich sauces and handmade-style pasta dishes.</p>
+            </div>
+            <div class="category-card">
+                <h3>Salads</h3>
+                <p>Fresh greens, crisp vegetables, and bright dressings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu section with food cards -->
+    <section class="menu section-gap" id="menu">
+        <div class="container section-heading">
+            <h2>Our Menu</h2>
+            <p>Six signature dishes designed to delight every taste.</p>
+        </div>
+        <div class="container menu-grid">
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80" alt="Burger" class="menu-image">
+                <div class="menu-card-content">
+                    <h3>Classic Beef Burger</h3>
+                    <p>Grilled beef patty, cheddar cheese, lettuce, tomato, and special sauce.</p>
+                    <div class="menu-card-footer">
+                        <span class="price">₹899</span>
+                        <a href="#contact" class="btn btn-secondary">Order</a>
+                    </div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=80" alt="Pizza" class="menu-image">
+                <div class="menu-card-content">
+                    <h3>Wood-fired Pizza</h3>
+                    <p>Thin crust pizza topped with mozzarella, tomato, basil, and olive oil.</p>
+                    <div class="menu-card-footer">
+                        <span class="price">₹1,250</span>
+                        <a href="#contact" class="btn btn-secondary">Order</a>
+                    </div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=900&q=80" alt="Pasta" class="menu-image">
+                <div class="menu-card-content">
+                    <h3>Spicy Pasta</h3>
+                    <p>Penne pasta tossed in a rich tomato sauce with chili flakes and parmesan.</p>
+                    <div class="menu-card-footer">
+                        <span class="price">₹1,050</span>
+                        <a href="#contact" class="btn btn-secondary">Order</a>
+                    </div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80" alt="Salad" class="menu-image">
+                <div class="menu-card-content">
+                    <h3>Garden Salad</h3>
+                    <p>Mixed greens, avocado, cherry tomatoes, cucumbers, and citrus dressing.</p>
+                    <div class="menu-card-footer">
+                        <span class="price">₹750</span>
+                        <a href="#contact" class="btn btn-secondary">Order</a>
+                    </div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=900&q=80" alt="Sushi" class="menu-image">
+                <div class="menu-card-content">
+                    <h3>Salmon Sushi Roll</h3>
+                    <p>Fresh salmon, avocado, sticky rice, and seaweed wrapped to perfection.</p>
+                    <div class="menu-card-footer">
+                        <span class="price">₹1,500</span>
+                        <a href="#contact" class="btn btn-secondary">Order</a>
+                    </div>
+                </div>
+            </article>
+            <article class="menu-card">
+                <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=80" alt="Dessert" class="menu-image">
+                <div class="menu-card-content">
+                    <h3>Chocolate Dessert</h3>
+                    <p>Decadent chocolate mousse with berry compote and whipped cream.</p>
+                    <div class="menu-card-footer">
+                        <span class="price">₹550</span>
+                        <a href="#contact" class="btn btn-secondary">Order</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- About us section -->
+    <section class="about section-gap" id="about">
+        <div class="container about-layout">
+            <div class="about-text">
+                <span class="section-label">About Us</span>
+                <h2>Modern Eats with a Warm Welcome</h2>
+                <p>Rajvardhan Restaurant brings premium dishes to your table with a cozy atmosphere, attentive service, and bold flavors.</p>
+                <p>Our chefs prepare meals with care and creativity, using seasonal produce and fresh ingredients every day.</p>
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+            </div>
+            <div class="about-card">
+                <div class="about-card-inner">
+                    <h3>We create food that brings people together.</h3>
+                    <p>From fun family dinners to special celebrations, enjoy quality dining in a stylish setting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why choose us section -->
+    <section class="features section-gap">
+        <div class="container section-heading">
+            <h2>Why Choose Us</h2>
+            <p>We combine delicious food, friendly service, and a modern dining experience.</p>
+        </div>
+        <div class="container features-grid">
+            <div class="feature-card">
+                <h3>Fresh Ingredients</h3>
+                <p>Only top quality ingredients are used in every dish for rich and clean flavors.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Creative Menu</h3>
+                <p>Our menu features classic favorites and chef-inspired specialties.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Cozy Atmosphere</h3>
+                <p>A warm and inviting space ideal for dinner, gatherings, and celebrations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef profile section -->
+    <section class="chef section-gap">
+        <div class="container chef-layout">
+            <div class="chef-image"></div>
+            <div class="chef-content">
+                <span class="section-label">Meet the Chef</span>
+                <h2>Chef Jordan Harper</h2>
+                <p>Chef Jordan blends modern techniques with comforting flavors to create memorable dining experiences.</p>
+                <p>With years of culinary expertise, every plate is thoughtfully crafted for taste, presentation, and balance.</p>
+                <div class="chef-stats">
+                    <div>
+                        <h3>10+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div>
+                        <h3>1200+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer reviews section -->
+    <section class="reviews section-gap">
+        <div class="container section-heading">
+            <h2>Customer Reviews</h2>
+            <p>Read what our guests love about dining with us.</p>
+        </div>
+        <div class="container reviews-grid">
+            <article class="review-card">
+                <p>"The food was amazing and the atmosphere felt luxurious without being stuffy. Highly recommend!"</p>
+                <span>— Emma L.</span>
+            </article>
+            <article class="review-card">
+                <p>"Great service and every dish was cooked perfectly. We will be back for the pizza and cocktails."</p>
+                <span>— David K.</span>
+            </article>
+            <article class="review-card">
+                <p>"The chef's tasting menu was creative and delicious. The best restaurant experience in the city."</p>
+                <span>— Rachel M.</span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact section-gap" id="contact">
+        <div class="container contact-layout">
+            <div class="contact-info">
+                <span class="section-label">Contact</span>
+                <h2>Reserve a Table or Ask a Question</h2>
+                <p>Send us a message and we will respond quickly to confirm your reservation or assist with your request.</p>
+                <div class="contact-details">
+                    <p><strong>Address:</strong> Karad, Maharashtra</p>
+                    <p><strong>Phone:</strong> +91 9503870652</p>
+                    <p><strong>Email:</strong> rajvardhanresto0602@gmail.com</p>
+                </div>
+            </div>
+            <form class="contact-form" action="#" method="post" id="booking">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message"></textarea>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Feane Restaurant. Crafted with care for delicious moments.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
