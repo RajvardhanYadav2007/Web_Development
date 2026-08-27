@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Border Example</title>
+
+    <style>
+
+        /* Main Box */
+        div {
+            height: 250px;
+            width: 350px;
+
+            border-width: 4px;
+            border-style: dashed;
+            border-color: green;
+
+            border-radius: 15px 40px 15px 40px;
+
+            overflow: auto;
+
+            box-sizing: border-box;
+
+            padding: 20px;
+        }
+
+        /* Border Shorthand */
+        h2 {
+            border: 3px solid red;
+            padding: 10px;
+        }
+
+        /* Different Border */
+        p {
+            border-top: 3px dotted blue;
+            border-right: 4px double orange;
+            border-bottom: 3px solid purple;
+            border-left: 4px dashed brown;
+
+            padding: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        CSS is used to design and style web pages.
+        Border is used to create a boundary around an element.
+        Border radius is used to make the corners rounded.
+        Overflow controls what happens when content is larger
+        than the given height and width of the element.
+    </div>
+
+    <h2>CSS Border Shorthand</h2>
+
+    <p>
+        This paragraph has different border styles on all four sides.
+    </p>
+
+</body>
+
+</html>
