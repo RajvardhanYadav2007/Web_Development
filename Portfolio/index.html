@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rajvardhan Yadav | Full Stack Developer</title>
+
+    <meta name="description"
+        content="Rajvardhan Yadav - Full Stack Developer, .NET Developer, Java Developer and Software Engineer.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+        <p>Loading Portfolio...</p>
+    </div>
+
+
+    <!-- ================= CURSOR ================= -->
+
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            R<span>Y</span>
+        </a>
+
+        <nav id="navMenu">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="assets/resume.pdf"
+               download="Rajvardhan_Yadav_Resume.pdf"
+               class="nav-resume">
+                Resume
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <div class="background">
+
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="glow glow-three"></div>
+
+        <div class="grid"></div>
+
+    </div>
+
+
+    <!-- ================= HOME ================= -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                
+
+                <p class="hello">Hello, I'm</p>
+
+                <h1>
+                    Rajvardhan
+                    <span>Yadav</span>
+                </h1>
+
+                <h2>
+                    I'm a
+                    <span id="typing"></span>
+                </h2>
+
+                <p class="hero-description">
+                    I build modern, scalable and user-focused applications
+                    using Full Stack technologies, .NET, Java, Angular,
+                    databases and modern AI tools.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary">
+                        View My Work
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="assets/resume.pdf"
+                       download="Rajvardhan_Yadav_Resume.pdf"
+                       class="btn secondary">
+                        Download Resume
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="social-links">
+
+                    <a href="https://github.com/RajvardhanYadav2007" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rajvardhan-yadav-7b06793a3/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/rajvardhan_8008/" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="mailto:rajvardhanyadav0602@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PROFILE ORBIT ================= -->
+
+            <div class="hero-visual">
+
+                <div class="orbit orbit-one">
+
+                    <div class="tech-icon icon-html">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <div class="tech-icon icon-js">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                    <div class="tech-icon icon-java">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+
+                    <div class="tech-icon icon-angular">
+                        <i class="fa-brands fa-angular"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="orbit orbit-two">
+
+                    <div class="tech-icon icon-css">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+
+                    <div class="tech-icon icon-php">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+
+                    <div class="tech-icon icon-git">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="orbit orbit-three">
+
+                    <div class="tech-text tech-net">
+                        .NET
+                    </div>
+
+                    <div class="tech-text tech-sql">
+                        SQL
+                    </div>
+
+                    <div class="tech-text tech-ai">
+                        AI
+                    </div>
+
+                </div>
+
+
+                <!-- Profile -->
+
+                <div class="profile-container">
+
+                    <div class="profile-glow"></div>
+
+                    <div class="profile-image">
+
+                        <img src="rajvardhan.png"
+                             alt="Rajvardhan Yadav">
+
+                    </div>
+
+                </div>
+
+
+                <!-- Floating particles -->
+
+                <span class="particle p1"></span>
+                <span class="particle p2"></span>
+                <span class="particle p3"></span>
+                <span class="particle p4"></span>
+                <span class="particle p5"></span>
+                <span class="particle p6"></span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section about">
+
+            <div class="section-title">
+
+                <p>WHO I AM</p>
+
+                <h2>
+                    About <span>Me</span>
+                </h2>
+
+                <div class="title-line"></div>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <div class="about-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <h3>Software Developer</h3>
+
+                    <p>
+                        I am passionate about developing software solutions
+                        that solve real-world problems. I enjoy working with
+                        both frontend and backend technologies.
+                    </p>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <h3>
+                        Building ideas into
+                        <span>digital experiences.</span>
+                    </h3>
+
+                    <p>
+                        I have explored multiple technologies across
+                        programming, web development, application development,
+                        databases and modern AI tools.
+                    </p>
+
+                    <p>
+                        My technical journey includes C, C++, Java, C#,
+                        .NET, ASP.NET MVC, HTML, CSS, JavaScript, Angular,
+                        PHP, Bootstrap, SQL Server and MySQL.
+                    </p>
+
+                    <div class="stats">
+
+                        <div class="stat">
+                            <strong data-count="15">0</strong>
+                            <span>Technologies</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong data-count="8">0</strong>
+                            <span>Projects</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong data-count="100">0</strong>
+                            <span>Learning %</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section skills">
+
+            <div class="section-title">
+
+                <p>MY EXPERTISE</p>
+
+                <h2>
+                    Technical <span>Skills</span>
+                </h2>
+
+                <div class="title-line"></div>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Programming</h3>
+                    <p>C • C++ • Java • C#</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Frontend</h3>
+                    <p>HTML • CSS • JS • Angular • Bootstrap</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Backend</h3>
+                    <p>.NET • ASP.NET MVC • PHP • Java</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Database</h3>
+                    <p>SQL Server • MySQL • Oracle</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Tools</h3>
+                    <p>Git • GitHub • VS Code • Visual Studio</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>AI Tools</h3>
+                    <p>AI Assisted Development & Productivity</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section projects">
+
+            <div class="section-title">
+
+                <p>MY WORK</p>
+
+                <h2>
+                    Featured <span>Projects</span>
+                </h2>
+
+                <div class="title-line"></div>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-ice-cream"></i>
+                    </div>
+
+                    <h3>Ice Cream Parlor Management</h3>
+
+                    <p>
+                        Desktop management application designed to manage
+                        products, customers and business operations.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>SQL Server</span>
+                        <span>Windows Forms</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+
+                    <h3>Student Admission System</h3>
+
+                    <p>
+                        Database-driven student admission system with
+                        enquiry, search, update and student management.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>.NET</span>
+                        <span>MVC</span>
+                        <span>SQL Server</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">03</div>
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <h3>Full Stack Web Application</h3>
+
+                    <p>
+                        Modern responsive web application developed using
+                        frontend and backend technologies.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Angular</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section education">
+
+            <div class="section-title">
+
+                <p>MY JOURNEY</p>
+
+                <h2>
+                    Education & <span>Journey</span>
+                </h2>
+
+                <div class="title-line"></div>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+
+                        <span>Education</span>
+
+                        <h3>Bachelor of Computer Science(BCS)</h3>
+
+                        <p>
+                            Building strong foundations in computer science,
+                            programming, software development and databases.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+
+                        <span>Development</span>
+
+                        <h3>Full Stack Development</h3>
+
+                        <p>
+                            Working with frontend, backend, databases,
+                            frameworks and modern development tools.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+
+                        <span>Professional Growth</span>
+
+                        <h3>Software Development</h3>
+
+                        <p>
+                            Focused on building real-world projects and
+                            becoming industry ready.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESUME ================= -->
+
+        <section class="resume-section">
+
+            <div class="resume-card">
+
+                <div>
+
+                    <p>READY TO EXPLORE?</p>
+
+                    <h2>
+                        Let's build something
+                        <span>great together.</span>
+                    </h2>
+
+                </div>
+
+                <a href="assets/resume.pdf"
+                   download="Rajvardhan_Yadav_Resume.pdf"
+                   class="btn primary">
+
+                    Download Resume
+
+                    <i class="fa-solid fa-download"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact">
+
+            <div class="section-title">
+
+                <p>GET IN TOUCH</p>
+
+                <h2>
+                    Let's <span>Connect</span>
+                </h2>
+
+                <div class="title-line"></div>
+
+            </div>
+
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <h3>
+                        Have a project or opportunity?
+                    </h3>
+
+                    <p>
+                        I'm always interested in discussing new projects,
+                        development opportunities and collaborations.
+                    </p>
+
+                    <div class="contact-detail">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+                            <span>Email</span>
+                            <p>rajvardhanyadav0602@gmail.com</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <div>
+                            <span>Location</span>
+                            <p>Karad,Maharashtra</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="input-row">
+
+                        <div class="input-box">
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder=" "
+                                required>
+
+                            <label>Your Name</label>
+
+                        </div>
+
+
+                        <div class="input-box">
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder=" "
+                                required>
+
+                            <label>Your Email</label>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder=" "
+                                required>
+                        <label>Subject</label>
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <textarea
+                                id="message"
+                                name="message"
+                                placeholder=" "
+                                rows="6"
+                                required></textarea>
+                        <label>Your Message</label>
+
+                    </div>
+
+
+                    <button type="submit" class="btn primary send-btn">
+
+                        Send Message
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+
+                    <p id="formMessage"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            R<span>Y</span>
+        </div>
+
+        <p>
+            Designed & Developed by Rajvardhan Yadav 9503870652
+        </p>
+
+        <p>
+             2026-27 All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= BACK TO TOP ================= -->
+
+    <button id="topBtn" class="top-btn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
