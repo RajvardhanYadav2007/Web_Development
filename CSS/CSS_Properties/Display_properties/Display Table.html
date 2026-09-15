@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Tablle</title>
+    <style>
+        .table{
+            display: table;
+            width: 100%;
+            border: 1px;
+            margin-top: 10px;
+        }
+        .row{
+            display: table-row;
+            background-color: rgb(255, 145, 0);
+        }
+        .Col{
+            display: table-cell;
+            border: 1px solid rgb(0, 0, 255);
+            padding: 10px;
+            text-align: center;
+        }
+        .header{
+            font-weight: bold;
+            font-size: 20px;
+            background-color: rgb(255, 4, 4);
+        }
+    </style>
+</head>
+<body>
+    <h2>Display :Cars information</h2>
+    <div class="table">
+        <div class="row header">
+            <div class="Col">Cars Name</div>
+            <div class="Col">Average</div>
+            <div class="Col">Fuel</div>
+        </div>
+        <div class="row">
+            <div class="Col">suzuki</div>
+            <div class="Col">15</div>
+            <div class="Col">Petrol</div>
+        </div>
+        <div class="row">
+            <div class="Col">maruti</div>
+            <div class="Col">12</div>
+            <div class="Col">CNG</div>
+        </div>
+        <div class="row">
+            <div class="Col">TATA</div>
+            <div class="Col">20</div>
+            <div class="Col">diesel</div>
+        </div>
+    </div>
+
+</body>
+</html>
